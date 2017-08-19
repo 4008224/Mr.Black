@@ -1,0 +1,68 @@
+/*店招分类by Mr.black*/
+
+/* .skin-box-bd导航栏 */
+.skin-box-bd {background:#222222;border:none;}
+
+/* .all-cats导航栏-所有分类区背景设置，文字继承.title */
+.all-cats {}
+	
+/*  .menu-list .menu导航栏 */
+.menu-list {}
+.menu {}
+
+/*.link:店铺导航区背景设置, :hover表示悬浮状态*/
+.link {background:#222222;border:none;}
+.link:hover {background:#222222;border:none;}
+
+/*.title:店铺导航区文字设置，:hover表示悬浮状态*/
+.title {color:#ffffff;font-size:14px;font-weight:normal;font-family:微软雅黑; font-style:normal;}
+.title:hover {color:#ffc547;font-size:14px;font-weight:normal;font-family:微软雅黑; font-style:normal;}
+
+/* .all-cats导航栏-所有分类区背景设置，文字继承.title */
+.all-cats {}
+.all-cats-trigger {}
+
+/*弹出页面*/
+
+/*所有分类-一级子菜单*/
+.all-cats-popup {border-width:1px; border-style:solid; border-top:none; border-color:#cccccc;}
+.fst-cat {border:none;background:#ffffff;}
+.fst-cat:hover {background:#ffffff;}
+.fst-cat-bd {background:#ffffff;padding:0px;margin:0px;height:auto;border:none;}
+.fst-cat-bd:hover {color:#232323;}
+.fst-cat-name {font-family:微软雅黑;color:#777777;font-size:14px;font-weight:normal;}
+.fst-cat-name: hover{font-family:微软雅黑;color:#232323;font-size:14px;font-weight:normal;}
+.fst-cat-icon {background:none;}
+
+/*所有分类-二级子菜单*/
+.snd-pop-inner {background:#ffffff;padding:0px;margin:0px;height:auto;border-width:1px; border-style:solid; border-top:none; border-color:#cccccc;}
+.snd-cat-bd {background:#ffffff;color:#777777;font-size:14px;font-weight:normal;font-family:微软雅黑;}
+.snd-cat-bd:hover {background:#ffffff;}
+.snd-cat-name {font-family:微软雅黑;color:#777777;font-size:14px;font-weight:normal;}
+.snd-cat-name:hover {font-family:微软雅黑;color:#232323;font-size:14px;font-weight:normal;}
+.snd-cat-icon {background:none;}
+
+/*导航区-子菜单*/
+ .popup-content {border-width:1px; border-style:solid; border-top:none; border-color:#cccccc;}
+.popup-icon {background:none;width:0;padding:0;margin:0;}
+.menu-popup-cats {color:#777777;font-family:微软雅黑;font-size:14px;font-weight:normal;border:none;}
+.menu-selected {color:#232323;font-size:14px;font-weight:normal;font-family:微软雅黑; font-style:normal;}
+
+/*导航区弹出菜单背景文字颜色*/
+.sub-cat {background:#ffffff;border:none;}
+.sub-cat:hover {background:#ffffff;}
+.cat-name {color:#777777;font-family:微软雅黑; font-size:14px;font-weight:normal;}
+.cat-name:hover {color:#232323;font-family:微软雅黑; font-size:14px;font-weight:normal;}
+
+/*完*/
+
+
+
+
+
+
+
+
+
+	  
+	  
