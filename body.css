@@ -144,22 +144,27 @@
 	background-image:url('//img.alicdn.com/imgextra/i3/321199669/TB2Ac7KXSOFJuJjSZFBXXaGxpXa_!!321199669.png');
 	background-repeat:no-repeat;
 	background-position:center center;
-	float:left;
-	display:inline-block;
+	display:block;
 }
 .body-2-1-coupon-tip {
-	width:25%;
-	height:100%;
-	float:left;
-	display:inline-block;
+	width:100%;
+	height:25%;
+	display:block;
 	background-color:#ffffff;
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#000000;
+	text-align:center;
 }
 .body-2-1-coupon-content {
-	width:25%;
-	height:100%;
-	float:left;
-	display:inline-block;
+	width:100%;
+	height:25%;
+	display:block;
 	background-color:#ffffff;
+	font-size:18px;
+	font-family:微软雅黑;
+	color:#000000;
+	text-align:center;
 }
 
 
