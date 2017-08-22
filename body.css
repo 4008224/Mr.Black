@@ -140,7 +140,7 @@
 }
 .body-2-1-coupon-image {
 	width:100%;
-	height:50%;
+	height:48%;
 	background-image:url('//img.alicdn.com/imgextra/i3/321199669/TB2Ac7KXSOFJuJjSZFBXXaGxpXa_!!321199669.png');
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -148,23 +148,24 @@
 }
 .body-2-1-coupon-tip {
 	width:100%;
-	height:25%;
+	height:20%;
 	display:block;
 	background-color:#ffffff;
 	font-size:14px;
 	font-family:微软雅黑;
-	color:#000000;
+	color:#777777;
 	text-align:center;
 }
 .body-2-1-coupon-content {
 	width:100%;
-	height:25%;
+	height:32%;
 	display:block;
 	background-color:#ffffff;
-	font-size:18px;
+	font-size:24px;
 	font-family:微软雅黑;
 	color:#000000;
 	text-align:center;
+	font-weight:bold;
 }
 
 
@@ -252,3 +253,113 @@
 	-khtml-transition: all 0.3s ease-in-out 0s;
 	-o-transition: all 0.3s ease-in-out 0s;
 }
+
+/*custom-effect-02 商品右上角热卖、特价、推荐标签 */
+.custom-effect-02-product-father {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background: #FFF;
+	border: 3px solid transparent;
+	box-shadow: 0 0 3px #eeeeee;
+	-moz-box-shadow: 0 0 3px #eeeeee;
+	-webkit-box-shadow: 0 0 3px #eeeeee;
+	transition: all 400ms ease-in-out 0s;
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+}
+.custom-effect-02-product-father:hover {
+	border-color: #eee;
+}	
+.custom-effect-02-product-father .sale-icon
+ {
+ 	background-color: #f1f1f1;
+    color: #222;
+    font-size: 13px;
+	font-weight: 400;
+	opacity: 0;
+    line-height: 18px;
+    padding: 2px 11px 4px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 5px;
+	transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+
+}
+.custom-effect-02-product-father:hover .sale-icon {
+     opacity: 1;
+	-moz-opacity: 1;  /* Netscape */
+	-khtml-opacity: 1; /* Safari 1.x */
+	-webkit-opacity: 1; /* other webkit*/
+}
+
+.custom-effect-02-product-father .recommend-icon
+ {
+ 	background-color: #f1f1f1;
+    color: #222;
+    font-size: 13px;
+	font-weight: 400;
+	opacity: 0;
+    line-height: 18px;
+    padding: 2px 11px 4px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 5px;
+	transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+
+}
+.custom-effect-02-product-father:hover .recommend-icon {
+     opacity: 1;
+	-moz-opacity: 1;  /* Netscape */
+	-khtml-opacity: 1; /* Safari 1.x */
+	-webkit-opacity: 1; /* other webkit*/
+}
+
+.custom-effect-02-product-father .hot-icon
+ {
+ 	background-color: #f1f1f1;
+    color: #222;
+    font-size: 13px;
+	font-weight: 400;
+	opacity: 0;
+    line-height: 18px;
+    padding: 2px 11px 4px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 5px;
+	transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+
+}
+.custom-effect-02-product-father:hover .hot-icon {
+     opacity: 1;
+	-moz-opacity: 1;  /* Netscape */
+	-khtml-opacity: 1; /* Safari 1.x */
+	-webkit-opacity: 1; /* other webkit*/
+}
+
+/*custom-effect-03 商品底部popup出收藏、购物车、购买的按钮*/
+
+
+
+/*custom-effect-04 图片scale特效/
