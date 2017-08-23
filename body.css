@@ -1,4 +1,5 @@
 /*Body CSS File by Mr.black*/
+/*https://open.taobao.com/docs/doc.htm?&treeId=10&articleId=102112&docType=1*/
 
 /*Part I slider and countdown css*/
 
@@ -63,7 +64,7 @@
 	height: 12px;
 }
 
-/*countdown part */
+/*right part */
 .body-1-1-2 {
 	width:242px;
 	height:430px;
@@ -85,6 +86,82 @@
 	left:22px;
 }
 
+/*countdown part */
+.countdown-bg {
+	width:708px;
+	height:84px;
+	background-color:rgba(0,0,0,0.4);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	line-height:84px;
+	font-size:18px;
+	color:#ffffff;
+	font-family:微软雅黑;
+	text-align:center;
+	font-weight:500;
+	letter-spacing:4px;
+}
+
+.h-bg {
+	background-color:#fa565a;
+	width:48px;
+	height:52px;
+	border-radius:5px;
+	font-size:24px;
+	color:#ffffff;
+	font-family:黑体;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:4px;
+	display:inline-block;
+	position:relative;
+	line-height:52px;
+	top:2px;
+}
+.m-bg {
+	background-color:#2dcb73;
+	width:48px;
+	height:52px;
+	border-radius:5px;
+	font-size:24px;
+	color:#ffffff;
+	font-family:黑体;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:4px;
+	display:inline-block;
+	position:relative;
+	line-height:52px;
+	top:2px;
+}
+.s-bg {
+	background-color:#f6bc57;
+	width:48px;
+	height:52px;
+	border-radius:5px;
+	font-size:24px;
+	color:#ffffff;
+	font-family:黑体;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:4px;
+	display:inline-block;
+	position:relative;
+	line-height:52px;
+	top:2px;
+}
+
+.qr-code {
+	font-size:0px;
+}
+.qr-code-horizontal{
+	display:inline-block;
+}
+
+.qr-code-vertical{
+	display:block;
+}
 
 /*Part II codeupons css*/
 .body-2-1 {
@@ -178,6 +255,12 @@
 	top:44px;
 }
 
+
+/*div模块悬浮变手形状*/
+.cursor-hand {
+	cursor:pointer;
+}
+
 /*特效模块*/
 /*custom-effect-01:鼠标悬浮时，两个半透明方块从左上角和右下角过渡覆盖图片*/
 /*custom-effect-01:.custom-effect-01 需要根据图片尺寸修改宽高100%显示*/
@@ -254,17 +337,14 @@
 	-o-transition: all 0.3s ease-in-out 0s;
 }
 
-/*custom-effect-02 商品右上角热卖、特价、推荐标签 */
+/*custom-effect-02 商品右上角热卖、特价、推荐标签 class="custom-effect-02"需重设padding已确保特效正确显示*/
 .custom-effect-02-product-father {
 	display: block;
 	position: relative;
+	margin:4px 0 0 4px;
 	overflow: hidden;
 	text-align: center;
 	background: #FFF;
-	border: 3px solid transparent;
-	box-shadow: 0 0 3px #eeeeee;
-	-moz-box-shadow: 0 0 3px #eeeeee;
-	-webkit-box-shadow: 0 0 3px #eeeeee;
 	transition: all 400ms ease-in-out 0s;
 	-webkit-transition: all 400ms ease-in-out 0s;
 	-moz-transition: all 400ms ease-in-out 0s;
@@ -272,22 +352,23 @@
 	-ms-transition: all 400ms ease-in-out 0s;
 }
 .custom-effect-02-product-father:hover {
-	border-color: #eee;
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;
 }	
-.custom-effect-02-product-father .sale-icon
- {
- 	background-color: #f1f1f1;
-    color: #222;
-    font-size: 13px;
+.custom-effect-02-product-father .sale-icon {
+	background-color: #f1f1f1;
+	color: #222;
+	font-size: 13px;
 	font-weight: 400;
 	opacity: 0;
-    line-height: 18px;
-    padding: 2px 11px 4px;
-    position: absolute;
-    right: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 5px;
+	line-height: 18px;
+	padding: 2px 11px 4px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 5px;
 	transition: all 300ms ease-in-out 0s;
 	-webkit-transition: all 300ms ease-in-out 0s;
 	-moz-transition: all 300ms ease-in-out 0s;
@@ -296,69 +377,125 @@
 
 }
 .custom-effect-02-product-father:hover .sale-icon {
-     opacity: 1;
+	opacity: 1;
 	-moz-opacity: 1;  /* Netscape */
 	-khtml-opacity: 1; /* Safari 1.x */
 	-webkit-opacity: 1; /* other webkit*/
 }
 
-.custom-effect-02-product-father .recommend-icon
- {
- 	background-color: #f1f1f1;
-    color: #222;
-    font-size: 13px;
+.custom-effect-02-product-father .recommend-icon {
+	background-color: #f1f1f1;
+	color: #222;
+	font-size: 13px;
 	font-weight: 400;
 	opacity: 0;
-    line-height: 18px;
-    padding: 2px 11px 4px;
-    position: absolute;
-    right: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 5px;
+	line-height: 18px;
+	padding: 2px 11px 4px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 5px;
 	transition: all 300ms ease-in-out 0s;
 	-webkit-transition: all 300ms ease-in-out 0s;
 	-moz-transition: all 300ms ease-in-out 0s;
 	-o-transition: all 300ms ease-in-out 0s;
 	-ms-transition: all 300ms ease-in-out 0s;
-
 }
 .custom-effect-02-product-father:hover .recommend-icon {
-     opacity: 1;
+	opacity: 1;
 	-moz-opacity: 1;  /* Netscape */
 	-khtml-opacity: 1; /* Safari 1.x */
 	-webkit-opacity: 1; /* other webkit*/
 }
 
-.custom-effect-02-product-father .hot-icon
- {
- 	background-color: #f1f1f1;
-    color: #222;
-    font-size: 13px;
+.custom-effect-02-product-father .hot-icon {
+	background-color: #f1f1f1;
+	color: #222;
+	font-size: 13px;
 	font-weight: 400;
 	opacity: 0;
-    line-height: 18px;
-    padding: 2px 11px 4px;
-    position: absolute;
-    right: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 5px;
+	line-height: 18px;
+	padding: 2px 11px 4px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 5px;
 	transition: all 300ms ease-in-out 0s;
 	-webkit-transition: all 300ms ease-in-out 0s;
 	-moz-transition: all 300ms ease-in-out 0s;
 	-o-transition: all 300ms ease-in-out 0s;
 	-ms-transition: all 300ms ease-in-out 0s;
-
 }
 .custom-effect-02-product-father:hover .hot-icon {
-     opacity: 1;
+	opacity: 1;
 	-moz-opacity: 1;  /* Netscape */
 	-khtml-opacity: 1; /* Safari 1.x */
 	-webkit-opacity: 1; /* other webkit*/
 }
 
-/*custom-effect-03 商品底部popup出收藏、购物车、购买的按钮*/
+/*custom-effect-03 商品底部popup出收藏、购物车、购买的按钮，此效果使用淘宝Wideget popup实现*/
+
+.custom-effect-03-popup-bg {
+	width:100px;
+	height:50px;
+	background-color:black;
+	position:relative;
+	left:0px;
+	bottom:0px;
+	font-size:0;
+	/*font-size:0 为了移除popupcontent inline-block得空隙*/
+}
+
+.custom-effect-03-popup-wishlist {
+	display:inline-block;
+	width:20%;
+	height:100%;
+	position:relative;
+	left:18%;
+	background-color:white;
+}
+
+.custom-effect-03-popup-cart {
+	display:inline-block;
+	width:20%;
+	height:100%;
+	position:relative;
+	left:22%;
+	background-color:red;
+}
+
+.custom-effect-03-popup-detail {
+	display:inline-block;
+	width:20%;
+	height:100%;
+	position:relative;
+	left:24%;
+	background-color:blue;
+}
+
+.custom-effect-03-popup-tip-bg {
+	width:88px;
+	height:24px;
+	background-color:black;
+	border-radius:2px;	
+	color:#ffffff;
+	text-align:center;
+	font-size:10px;
+	line-height:24px;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+	position:relative;
+	left:39px;
+	top:0px;
+}
+
 
 
 
