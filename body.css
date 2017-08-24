@@ -244,6 +244,68 @@
 	text-align:center;
 	font-weight:bold;
 }
+/*Part III 镇店之宝*/
+
+.body-3-1-left{
+	width:522px;
+	height:390px;
+	display:inline-block;
+	position:relative;
+	float:left;
+}
+
+.body-3-1-right{
+	width:428px;
+	height:390px;
+	display:inline-block;
+}
+
+.body-3-1-right-top {
+	width:100%;
+	height:60px;
+	display:block;
+}
+
+.body-3-1-right-brand {
+	width:100%;
+	height:60px;
+	font-size: 44px;
+	font-family: 微软雅黑;
+	color: rgb(45, 176, 237);
+	font-weight: bold;
+	line-height: 60px;
+	text-align: left;
+	display:block;
+}
+
+.body-3-1-right-slogan {
+	width:100%;
+	height:30px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: rgb(54,54,54);
+	font-weight: bold;
+	display:block;
+	margin-left:4px;
+}
+
+.body-3-1-right-des {
+	width:100%;
+	height:60pxl;
+	font-size: 12px;
+	font-family: 微软雅黑;
+	color: rgb(34, 34, 34);
+	text-align: left;
+	display:block;
+}
+
+.body-3-1-right-price {
+	font-size: 18px;
+	font-family: 微软雅黑;
+	color: rgb(34, 34, 34);
+	line-height: 0.966;
+	display:block;
+}
 
 
 
