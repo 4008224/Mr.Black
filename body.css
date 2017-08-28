@@ -262,7 +262,7 @@
 
 .body-3-1-right-top {
 	width:100%;
-	height:60px;
+	height:30px;
 	display:block;
 }
 
@@ -280,32 +280,231 @@
 
 .body-3-1-right-slogan {
 	width:100%;
-	height:30px;
+	height:20px;
 	font-size: 14px;
 	font-family: 微软雅黑;
-	color: rgb(54,54,54);
+	color: rgb(114,114,114);
 	font-weight: bold;
 	display:block;
 	margin-left:4px;
+	margin-top:10px;
 }
 
 .body-3-1-right-des {
+	margin-top:30px;
+	margin-bottom:10px;
 	width:100%;
-	height:60pxl;
-	font-size: 12px;
+	height:auto;
+	font-size: 14px;
 	font-family: 微软雅黑;
-	color: rgb(34, 34, 34);
+	color: rgb(0, 0, 0);
 	text-align: left;
 	display:block;
 }
 
-.body-3-1-right-price {
-	font-size: 18px;
-	font-family: 微软雅黑;
-	color: rgb(34, 34, 34);
-	line-height: 0.966;
-	display:block;
+.body-3-1-right-des ol li {
+	margin-left:30px;
+	list-style-type:disc;
+	font-size:14px;
+	line-height:20px;
+	font-weight:bold;
+	line-height:24px;
 }
+
+.price-and-buy-btn{
+	width:90%;
+	height:60px;
+	position:relative;
+	margin-left:20px;
+	padding-top:10px;
+}
+.body-3-1-right-price {
+	font-size: 24px;
+	font-weight:bold;
+	font-family: 微软雅黑;
+	color: rgb(45, 176, 237);
+	line-height:60px;
+	display:inline-block;
+	width:40%;
+	height:60px;
+	position:relative;
+	bottom:-4px;
+}
+
+.body-3-1-buy-btn {
+	position:relative;
+	right:0px;
+	width:100px;
+	height:36px;
+	font-size:18px;
+	font-family: 黑体;
+	line-height:38px;
+	text-align:center;
+	display:inline-block;
+}
+
+/*Part III 黑哥推荐*/
+
+.body-4-1 {
+	width:950px;
+	height:648px;
+	float:left;
+	margin-top:0px;
+	display:inline-block;
+}
+
+.body-4-1-nav {
+	display:block;
+	width:360px;
+	height:30px;
+	position:relative;
+	top:0px;
+	left:0px;
+	margin:auto auto;
+	z-index:2;
+}
+
+.body-4-1-nav-cursor {
+	cursor:pointer;
+	width:120px;
+	height:30px;
+	display:inline-block;
+	float:left;
+}
+
+.body-4-1-nav-cursor-font {
+	font-size:16px;
+	font-family:arial;
+	color:#999999;
+	text-align:center;
+	font-weight:bold;
+	display:none;
+}
+
+.body-4-1-con {
+	position:relative;
+	left:0px;
+	z-index:1;
+}
+
+.body-4-1-con-item {
+	background-color:#F0F0F0;
+	display:block;
+	width:950px;
+	height:648px;
+	float:left;
+	margin:auto auto;
+}
+
+.body-4-1-con-item-title {
+	width:360px;
+	height:30px;
+	display:block;
+	position:relative;
+	margin-left:295px;
+	margin-bottom:4px;
+}
+
+.body-4-1-con-item-title-bg {
+	width:120px;
+	height:30px;
+	display:inline-block;
+	float:left;
+}
+
+.body-4-1-con-item-title-bg-font{
+	font-size:16px;
+	font-family:arial;
+	color:#999999;
+	text-align:center;
+	font-weight:bold;
+}
+
+.body-4-1-con-item-title-bg-font span{
+	color:#232323;
+}
+
+.body-4-1-con-item-con {
+	display:block;
+	width:942px;
+	height:618px;
+	margin-left:4px;
+}
+.body-4-1-con-item-con-left-des-right-list-des {
+	display:inline-block;
+	float:left;
+	width:216px;
+	height:606px;
+	background-color:#82D4ED;
+	margin-top:4px;
+}
+.body-4-1-con-item-con-left-des-right-list-list {
+	display:inline-block;
+	float:left;
+	width:216px;
+	height:610px;
+	position:relative;
+	margin-left:22px;
+	margin-top:4px;
+}
+.body-4-1-con-item-con-left-des-right-list-list-top-item {
+	display:block;
+	width:218px;
+	height:292px;
+	position:relative;
+	top:0px;
+	background-color:#FFFFFF;
+	margin:0 0 4px 4px;;
+}
+.body-4-1-con-item-con-left-des-right-list-list-bottom-item {
+	display:block;
+	width:218px;
+	height:292px;
+	position:relative;
+	top:18px;
+	background-color:#FFFFFF;
+	margin:4px;
+}
+
+.body-4-1-con-item-con-left-des-right-list-list-top-item:hover{
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;	
+}
+
+.body-4-1-con-item-con-left-des-right-list-list-bottom-item:hover {
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;	
+}
+
+.body-4-1-con-item-con-left-list-right-des-list {
+	
+}
+.body-4-1-con-item-con-left-list-right-des-desc {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -316,6 +515,36 @@
 	position:relative;
 	top:44px;
 }
+
+/*按钮设置*/
+.btn-styled {
+	border-width: 1px;
+	border-color: rgb(119, 119, 119);
+	border-style: solid;
+	background-color:#f0f0f0;
+	color:#222222;
+}
+
+.btn-styled:hover {
+	border-width: 1px;
+	border-color: rgb(119, 119, 119);
+	border-style: solid;
+	background-color:#000000;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+
+
+/*标题样式*/
+.customized-title {
+	width:950px;
+	height:88px;
+	float:left;
+	margin-top:44px;
+	text-align:center;
+}
+
 
 
 /*div模块悬浮变手形状*/
