@@ -1,6 +1,26 @@
 /*Body CSS File by Mr.black*/
 /*https://open.taobao.com/docs/doc.htm?&treeId=10&articleId=102112&docType=1*/
 
+
+/*导航栏*/
+.znfav {
+    text-decoration: none;
+    color: #000;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+.znfav .star {
+    background: url(//gdp.alicdn.com/imgextra/i1/479184430/TB27OurspXXXXa7XpXXXXXXXXXX_!!479184430.png) left no-repeat;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    float: left;
+    margin-right: 3px;
+    transition: all 2s ease;
+}
+
+
 /*Part I slider and countdown css*/
 
 .body-1-1 {
@@ -309,6 +329,7 @@
 	line-height:20px;
 	font-weight:bold;
 	line-height:24px;
+	color:#555555;
 }
 
 .price-and-buy-btn{
@@ -479,14 +500,114 @@
 }
 
 .body-4-1-con-item-con-left-list-right-des-list {
-	
+	display:inline-block;
+	float:left;
+	width:216px;
+	height:610px;
+	position:relative;
+	margin-top:4px;
+	margin-left:22px;
 }
-.body-4-1-con-item-con-left-list-right-des-desc {
-	
+
+.body-4-1-con-item-con-left-list-right-des-list-first {
+	display:inline-block;
+	float:left;
+	width:216px;
+	height:610px;
+	position:relative;
+	margin-top:4px;
+	margin-left:4px;
 }
 
+.body-4-1-con-item-con-left-list-right-des-des {
+	display:inline-block;
+	float:left;
+	width:216px;
+	height:606px;
+	background-color:#82D4ED;
+	margin-top:4px;
+	margin-left:22px;
+}
 
+.body-4-1-con-item-con-left-list-right-des-list-top-item {
+	display:block;
+	width:218px;
+	height:292px;
+	position:relative;
+	top:0px;
+	background-color:#FFFFFF;
+	margin:0 0 4px 4px;;
+}
+.body-4-1-con-item-con-left-list-right-des-list-bottom-item {
+	display:block;
+	width:218px;
+	height:292px;
+	position:relative;
+	top:18px;
+	background-color:#FFFFFF;
+	margin:4px;
+}
 
+.body-4-1-con-item-con-left-list-right-des-list-top-item:hover{
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;	
+}
+
+.body-4-1-con-item-con-left-list-right-des-list-bottom-item:hover {
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;	
+}
+
+.body-4-1-product-img{
+	display:table-cell;
+	width:208px;
+	height:208px;
+	overflow:hidden;
+	margin:auto auto;
+	vertical-align:middle;
+}
+.body-4-1-product-name {
+	width:208px;
+	height:22px;
+	display:block;
+	text-align:center;
+	font-size:16px;
+	color:#555555;
+	font-family:微软雅黑;
+	margin:auto auto;	
+}
+a:hover {
+	text-decoration:none;
+}
+a:link {
+	text-decoration:none;
+}
+.body-4-1-con-item-con-left-des-right-list-list-top-item:hover .body-4-1-product-name{
+	color:#272727;
+}
+
+.body-4-1-con-item-con-left-des-right-list-list-bottom-item:hover .body-4-1-product-name{
+	color:#272727;
+}
+
+.body-4-1-product-price {
+	display:block;
+	text-align:center;
+	font-size:16px;
+	color:#555555;
+	width:208px;
+	height:30px;
+	line-height:30px;
+	margin:auto auto;
+	font-family:微软雅黑;
+	margin-top:14px;
+}
+
+.rmb{
+	font-family:"times new roman", 微软雅黑;
+}
 
 
 
@@ -632,7 +753,7 @@
 .custom-effect-02-product-father {
 	display: block;
 	position: relative;
-	margin:4px 0 0 4px;
+	margin:0px 0 0 0px;
 	overflow: hidden;
 	text-align: center;
 	background: #FFF;
@@ -675,7 +796,7 @@
 }
 
 .custom-effect-02-product-father .recommend-icon {
-	background-color: #f1f1f1;
+	background-color: #07ac0f;
 	color: #222;
 	font-size: 13px;
 	font-weight: 400;
@@ -692,6 +813,8 @@
 	-moz-transition: all 300ms ease-in-out 0s;
 	-o-transition: all 300ms ease-in-out 0s;
 	-ms-transition: all 300ms ease-in-out 0s;
+	font-family:微软雅黑;
+	color:#ffffff;
 }
 .custom-effect-02-product-father:hover .recommend-icon {
 	opacity: 1;
@@ -701,7 +824,7 @@
 }
 
 .custom-effect-02-product-father .hot-icon {
-	background-color: #f1f1f1;
+	background-color: #ea1c39;
 	color: #222;
 	font-size: 13px;
 	font-weight: 400;
@@ -729,24 +852,32 @@
 /*custom-effect-03 商品底部popup出收藏、购物车、购买的按钮，此效果使用淘宝Wideget popup实现*/
 
 .custom-effect-03-popup-bg {
-	width:100px;
-	height:50px;
-	background-color:black;
+	width:208px;
+	height:30px;
 	position:relative;
 	left:0px;
-	bottom:0px;
+	bottom:14px;
 	font-size:0;
+	background-color:#ffffff;
 	/*font-size:0 为了移除popupcontent inline-block得空隙*/
 }
 
 .custom-effect-03-popup-wishlist {
 	display:inline-block;
+	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2Gh4QXpcJL1JjSZFOXXcWlXXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
 	width:20%;
 	height:100%;
 	position:relative;
 	left:18%;
-	background-color:white;
 }
+.custom-effect-03-popup-wishlist:hover{
+	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2tz0GXC3PL1JjSZFtXXclRVXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
 
 .custom-effect-03-popup-cart {
 	display:inline-block;
@@ -754,7 +885,15 @@
 	height:100%;
 	position:relative;
 	left:22%;
-	background-color:red;
+	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.custom-effect-03-popup-cart:hover{
+	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
 }
 
 .custom-effect-03-popup-detail {
@@ -763,7 +902,15 @@
 	height:100%;
 	position:relative;
 	left:24%;
-	background-color:blue;
+	background-image:url(https://img.alicdn.com/imgextra/i4/321199669/TB2LL0NXuALL1JjSZFjXXasqXXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.custom-effect-03-popup-detail:hover{
+	background-image:url(https://img.alicdn.com/imgextra/i3/321199669/TB2PwFSXukJL1JjSZFmXXcw0XXa_!!321199669.png);
+	background-position:center center;
+	background-repeat:no-repeat;
 }
 
 .custom-effect-03-popup-tip-bg {
