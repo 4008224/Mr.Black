@@ -30,53 +30,53 @@
 		JO H20
 		JO Flavor
 		JO 按摩乳
-		云泥沙
-		Infinite Earth
-		杜蕾斯KY-Jel
+		LELO 润滑
+		Intimate Earth 绿瓶
+		KY-Jel
 	口爱精选
 		JO flavor 30mL
 		JO flavor 120mL
 		JO galeto
 		JO 冰感口爱
 		JO 有机系列
-		Intimate Earth
+		Intimate Earth 草莓
 		
 	后庭专用
 		JO Anal H20 60mL
 		JO Anal H20 120mL
 		JO Anal H20 温热 60mL
 		JO Anal H20 清凉 60mL
-		KY-Jel
-		云泥沙
+		Intimate Earth Anal
+		KY
 	延时促敏
 		原理说明
 		JO Volt
-		Wet Stuff
+		蒂美G点快感啫喱 
 		Dynamo Delay Spray
 		Eros 喷剂		
 男士专区
 	飞机杯
 		Lovense Max
 		Blewit
-		Flesh Light
-		Flesh Light
-		Flesh Light		
+		FLESHLIGHT STAMINA TRAINING UNIT™ PURE
+		FLESHLIGHT CLASSIC PINK™ LADY
+		FLESHLIGHT LAUNCH	
 		雷霆A380
 	后庭用品
-		Aneros
+		Aneros 
 		Aneros
 		Aneros
 		Lovense Hush
 		Njoy
 		Lelo bob
-	实体娃娃
-		Realdoll 1
-		Realdoll 1		
-		Realdoll 1
-		Realdoll 1
-		Realdoll 1
-		Realdoll 1
-计生用品
+	实体娃娃 （暂时不收集）
+		Realdoll2 Renee
+		Realdoll2 Natalie
+		Wicked RealDoll - Asa Akira
+		Wicked RealDoll - Kaylani
+		Real Cock
+		Real Cock2
+卫储计生
 	安全套
 		冈本001 
 		冈本001
@@ -85,44 +85,57 @@
 		冈本003 白金10
 		冈本 纯
 	情趣套
-		暂时不做
-	计生试纸
-		暂时不做
-清洁收纳
-	玩具清洁
+		杰士邦 野兽派 动感大颗粒
+		杰士邦 浪漫纹环
+		杰士邦 温馨浮点
+		倍力乐 les手指套
+		倍力乐 520超大颗粒G点套
+		倍力乐 毛毛虫
+	清洁收纳
 		JO refresh
 		Lelo 清洁剂
 		Dorr消毒盒
-		
-	玩具收纳
 		收纳袋I
 		收纳袋II
 		密码收纳箱
-		Dorr消毒盒
-		
 		
 伴侣专区
 	户外遥控
 		Lovense Lush
-		Lelo
+		Lelo Tiani 24k
+		Lovense Hush
+		LELO Hula球
+		LELO Lyla2
+		LELO IDA2		
 	异地遥控
 		Lovense Lush
 		Lovense Nora
 		Lovense Hush
 		Lovense Max
-		We-vibe
+		Kiiroo Pearl2
+		Kiiroo Onyx	
 	共用玩具
 		Zalo Fanfan
-		Lelo
-		We-vibe
+		Zalo Fanfan Set
+		Lelo Tiani 2代
+		Lelo Tiani 24K
+		Lelo Ida2
+		We-vibe 维依Sync
+	凯戈尔球
+		Lelo luna smart
+		Lelo luna球
+		Imtoy Candy
+		诺兰娅妮
+		Minna life kGoal
+		Minna life kGoal Boost 
 特色专区
 	电磁脉冲
 		诺兰悦魅
 		Hello touch X
-		Mysitm
-		Mysitm
-		Mysitm
-		Mysitm		
+		Mysitm Daring Danny 
+		Mysitm Electric Eric 
+		Mysitm Tickling Truman
+		Mysitm Sizzling Simon	
 	大牌代购
 		Kink 
 品牌专区
