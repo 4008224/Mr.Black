@@ -265,10 +265,15 @@
 	font-weight:bold;
 }
 /*Part III 镇店之宝*/
+.body-3-1 {
+	width:950px;
+	height:430px;
+	background-color:#ffffff;
+}
 
 .body-3-1-left{
 	width:522px;
-	height:390px;
+	height:430px;
 	display:inline-block;
 	position:relative;
 	float:left;
@@ -276,13 +281,13 @@
 
 .body-3-1-right{
 	width:428px;
-	height:390px;
+	height:430px;
 	display:inline-block;
 }
 
 .body-3-1-right-top {
 	width:100%;
-	height:30px;
+	height:50px;
 	display:block;
 }
 
@@ -1572,7 +1577,7 @@ a:link {
 
 .body-9-1-nav-cursor {
 	cursor:pointer;
-	width:90px;
+	width:120px;
 	height:30px;
 	display:inline-block;
 	float:left;
@@ -1612,7 +1617,7 @@ a:link {
 }
 
 .body-9-1-con-item-title-bg {
-	width:90px;
+	width:120px;
 	height:30px;
 	display:inline-block;
 	float:left;
@@ -1795,6 +1800,7 @@ a:link {
 /*旺旺咨询*/
 .talk-with-me{
 	height:136px;
+	padding-top:20px;
 }
 
 .talk-with-me-1 {
@@ -1919,6 +1925,69 @@ a:link {
 .cursor-hand {
 	cursor:pointer;
 }
+
+
+
+
+/*footer*/
+.footer-customized {
+	width:949px;
+	height:182px;
+	background-color:#f0f0f0;
+	font-size:0px;
+	margin:auto auto;
+}
+
+.footer-content {
+	width:100%;
+	height:180px;
+	display:block;
+}
+
+.footer-package,.footer-shipping,.footer-after-service,.footer-contact-us {
+	width:236px;
+	height:180px;
+	display:inline-block;
+	font-size:16px;
+}
+.footer-vertical-line {
+	width:1px;
+	height:180px;
+	background-color:#dfdfdf;
+	display:inline-block;
+	position:relative;
+	vertical-align:middle;
+}
+.footer-horizontal-line {
+	width:100%;
+	height:1px;
+	background-color:#dfdfdf;
+	display:block;
+}
+
+
+.footer-title {
+	width:236px;
+	color:#232323;
+	letter-spacing: 0.8px;
+	margin: 0 0 18px 0;
+	text-transform: uppercase;
+	font-size:16px;
+	font-family:微软雅黑;
+	text-align:center;
+	height:44px;
+	line-height:44px;
+}
+.footer-content-1{
+	width:80%;
+	color:#777777;
+	font-size:13px;
+	text-align:center;
+	font-family:微软雅黑;
+	margin:auto auto;
+}
+
+
 
 /*特效模块*/
 /*custom-effect-01:鼠标悬浮时，两个半透明方块从左上角和右下角过渡覆盖图片*/
