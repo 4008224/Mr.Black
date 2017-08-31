@@ -1932,7 +1932,7 @@ a:link {
 /*footer*/
 .footer-customized {
 	width:949px;
-	height:182px;
+	height:222px;
 	background-color:#f0f0f0;
 	font-size:0px;
 	margin:auto auto;
@@ -1949,6 +1949,7 @@ a:link {
 	height:180px;
 	display:inline-block;
 	font-size:16px;
+	vertical-align:top;
 }
 .footer-vertical-line {
 	width:1px;
@@ -1956,7 +1957,7 @@ a:link {
 	background-color:#dfdfdf;
 	display:inline-block;
 	position:relative;
-	vertical-align:middle;
+	vertical-align:top;
 }
 .footer-horizontal-line {
 	width:100%;
@@ -1970,22 +1971,150 @@ a:link {
 	width:236px;
 	color:#232323;
 	letter-spacing: 0.8px;
-	margin: 0 0 18px 0;
+	margin: 20px 0 18px 0;
 	text-transform: uppercase;
 	font-size:16px;
 	font-family:微软雅黑;
 	text-align:center;
-	height:44px;
-	line-height:44px;
+	height:36px;
+	line-height:36px;
+	position:relative;
 }
 .footer-content-1{
-	width:80%;
+	width:90%;
+	height:124px;
 	color:#777777;
 	font-size:13px;
 	text-align:center;
 	font-family:微软雅黑;
 	margin:auto auto;
 }
+.footer-content-1 ol{
+	text-align:left;
+	margin-left:20px;
+}
+.footer-content-1 ol li{
+	list-style-type:disc;
+	line-height:20px;
+}
+
+.author-infor{
+	width:100%;
+	height:24px;
+	text-align:center;
+}
+.author-infor-left{
+	width:50%;
+	height:100%;
+	color:#999999;
+	line-height:40px;
+	text-align: right;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+.author-infor-right{
+	width:50%;
+	height:100%;
+	color:#000000;
+	line-height:40px;
+	text-align: left;
+	font-size:12px;
+	font-family:微软雅黑;
+}
+/*collection 特色专区*/
+.collection {
+	width:950px;
+	height:300px;
+	float:left;
+	margin-top:4px;
+	font-size:0px;
+}
+
+.collection-image-left{
+	display:inline-block;
+	margin:0px 11px 0px 0px;
+}
+
+.collection-image-right{
+	display:inline-block;
+	margin:0px 0px 0px 11px;
+}
+.custom-effect-collection-image {
+	width: 464px;
+	height:222px;
+	min-height: 1px;
+	position: relative; 
+	float: left; 
+}
+
+.custom-effect-collection-image a:before {
+	background-color: #ffffff;
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	/* Netscape */
+	-khtml-opacity: 0.2;
+	/* Safari 1.x */
+	-webkit-opacity: 0.2;
+	/* other webkit*/
+	transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-khtml-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+
+}
+.custom-effect-collection-image a:after {
+	background-color: #ffffff;
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	/* Netscape */
+	-khtml-opacity: 0.2;
+	/* Safari 1.x */
+	-webkit-opacity: 0.2;
+	/* other webkit*/
+	transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-khtml-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+
+}
+.custom-effect-collection-image a:hover:before {
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-khtml-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+}
+.custom-effect-collection-image a:hover:after {
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-khtml-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+}
+
+
+/*品牌专区*/
+
 
 
 
