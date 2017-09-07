@@ -578,6 +578,11 @@ numbers:content order numbers
 	background-color:#FFFFFF;
 	margin:0 0 4px 4px;;
 }
+.cm-c-i-top:hover {
+	box-shadow: 0 0 4px #888888;
+	-moz-box-shadow: 0 0 4px #888888;
+	-webkit-box-shadow: 0 0 4px #888888;
+}
 .cm-c-i-top-img{
 	display:table-cell;
 	width:208px;
@@ -1351,4 +1356,28 @@ a:link {
 	left:39px;
 	top:0px;
 }
-
+/*ce-4 聚焦动画*/
+.ce-4{margin-bottom:0px;position:relative;width:100%;height:480px;margin:auto auto;}
+.ce-4 .zd{position:relative;z-index:10;height:480px;top:110px;left:300px;}
+.ce-4 .zd .zdl-1-1{left:120px;top:100px;}
+.ce-4 .zd .zdl-1-2{left:500px;top:280px;}
+.ce-4 .zd .zdl-1-3{left:0px;top:0px;}
+.ce-4 .zd .zdl-1-4{left:280px;top:240px;}
+.ce-4 .zd .zdl-1-5{left:380px;top:30px;}
+.ce-4 .zd .zdl-2-1{left:40px;top:280px;}
+.ce-4 .zd .zdl-2-2{left:730px;top:110px;}
+.ce-4 .zd .zdl-2-3{left:560px;top:0px;}
+.ce-4 .zd .zdl-2-4{left:0px;top:0px;}
+.ce-4 .zd .zdl-2-5{left:80px;top:130px;}
+.ce-4 .zd:hover .zdl-1-1{left:0px;top:0px;}
+.ce-4 .zd:hover .zdl-1-2{left:190px;top:0px;}
+.ce-4 .zd:hover .zdl-1-3{left:380px;top:0px;}
+.ce-4 .zd:hover .zdl-1-4{left:570px;top:0px;}
+.ce-4 .zd:hover .zdl-1-5{left:760px;top:0px;}
+.ce-4 .zd:hover .zdl-2-1{left:0px;top:240px;}
+.ce-4 .zd:hover .zdl-2-2{left:190px;top:240px;}
+.ce-4 .zd:hover .zdl-2-3{left:380px;top:240px;}
+.ce-4 .zd:hover .zdl-2-4{left:570px;top:240px;}
+.ce-4 .zd:hover .zdl-2-5{left:760px;top:240px;}
+.ce-4 .zd .zdl{position:absolute;-webkit-transition:0.25s ease-out;-moz-transition:0.25s ease-out;-o-transition:0.25s ease-out;transition:0.25s ease-out;z-index:5;}
+.ce-4 .zd .zdl:hover{position:absolute;-webkit-transform:scale(1.05);transform:scale(1.05);-moz-transform:scale(1.05);-ms-transform:scale(1.05);-o-transform:scale(1.05);-webkit-box-shadow:0px 0px 60px 0px rgba(0,0,0,0.7);box-shadow:0px 0px 60px 0px rgba(0,0,0,0.7);z-index:10;}
