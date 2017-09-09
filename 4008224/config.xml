@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<product>
+		<id product-id="">
+			<product-img></product-img>
+			<product-link></product-link>
+		</id>
+		<id product-id="">
+			<product-img></product-img>
+			<product-link></product-link>
+		</id>
+		<id product-id="">
+			<product-img></product-img>
+			<product-link></product-link>
+		</id>
+		<id product-id="">
+			<product-img></product-img>
+			<product-link></product-link>
+		</id>
+		<id product-id="">
+			<product-img></product-img>
+			<product-link></product-link>
+		</id>		
+	</product>
+	<download>
+		<id app-name="com.lovense.bodychat">
+			<app-img></app-img>
+			<app-link></app-link>
+		</id>
+		<id app-name="com.lovense.remote">
+			<app-img></app-img>
+			<app-link></app-link>
+		</id>
+		<id app-name="com.zalo.health">
+			<app-img></app-img>
+			<app-link></app-link>
+		</id>
+		<id app-name="com.vrp.player">
+			<app-img></app-img>
+			<app-link></app-link>
+		</id>
+	</download>
+</config>

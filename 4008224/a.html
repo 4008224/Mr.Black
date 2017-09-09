@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        /**
+         * 获取参数的键值对对象。
+         * @returns {Object}
+         */
+        var getParam = function () {
+            try{
+            var url = window.location.href;
+            var result = url.split("?")[1];
+            var keyValue = result.split("&");
+            var obj = {};
+            for (var i = 0; i < keyValue.length; i++) {
+                var item = keyValue[i].split("=");
+                obj[item[0]] = item[1];
+            }
+            return obj;}catch(e){
+                console.warn("There has no param value!");
+            }
+        };
+		/**
+         * 根据参数来处理页面显示逻辑
+         */
+		var obj = getParam();
+		if(obj.type == 0) {
+			/**
+			* type=0,商店主页
+			*/
+			document.body.innerHTML = "<div>obj.type=0</div>";
+		}
+		else if (obj.type == 1) {
+			/**
+			* type=1,跳转商品页面
+			*/
+			document.body.innerHTML = '<div>obj.type=1</div>';		
+		}
+		else if (obj.type ==2 ) {
+			/**
+			* type=3,APP下载页面
+			*/
+			document.body.innerHTML = '<div>obj.type=2</div>';		
+		}
+		else {
+			/**
+			* 容错处理
+			*/
+			document.body.innerHTML = '<div>obj.type=error</div>';			
+		}        
+		/**
+         * 页面加载完毕打印键值对对象
+         */
+        window.onload = function () {
+            console.log(getParam());
+			console.log(getParam().type);
+			console.log(getParam().value);
+        }
+    </script>
+</body>
+</html>

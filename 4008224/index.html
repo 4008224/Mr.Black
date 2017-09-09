@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" caontent="width=device-width, initial-scale=1, user-scalable=0">
+		<title>点击右上角−−−−></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		/**
+         * 获取参数的键值对对象。
+         * @returns {Object}
+         */
+        function getParam() {
+            try{ 
+				var url = window.location.href;
+				var result = url.split("?")[1];
+				var keyValue = result.split("&");
+				var obj = {};
+				for (var i = 0; i < keyValue.length; i++) {
+					var item = keyValue[i].split("=");
+					obj[item[0]] = item[1];
+				}
+				return obj;
+			}
+			catch(e){
+				console.warn("There has no param value!");
+			}
+        };
+		/**
+         * 微信跳转函数。
+         */		
+		function wechatOptimized(imgLink,targetLink){
+			var ua = navigator.userAgent
+			var uat = navigator.userAgent.toLowerCase();
+			var isWeixin = uat.indexOf('micromessenger') != -1; //微信内访问
+			var isAndroid = ua.indexOf('Android') != -1; //android终端
+			var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			var browserWidth = document.body.clientWidth;
+			if(isWeixin && isiOS){
+				document.body.innerHTML = '<div><img src="https://www.qingqubaike.com/wp-content/uploads/2017/08/ios.png" /></div><div><img src="' + imgLink + '"/></div>';
+			}
+			else if(isWeixin && isAndroid){
+				document.body.innerHTML = '<div class ="scaled"><img src="https://www.qingqubaike.com/wp-content/uploads/2017/08/android.jpg" /></div><div><img src="' + imgLink + '"/></div>';
+			}
+			else {
+				window.location.href='a.html?type=0&value=com.lovense.bodychat';
+				//window.location.href= targetLink;
+			}
+		}
+
+		var linkParameter = getParam();
+		var linkType = getParam().type;
+		var linkValue = getParam().value; 
+		if (linkType == 1) {
+			var imgLink = ;
+			var targetLink = ;
+		}
+		else if (linkType == 2) {
+			var imgLink = ;
+			var targetLink = ;
+		}
+		else {
+			// linkType为0或者其它错误值时均提示跳转主页
+			var imgLink = ;
+			var targetLink = ;
+		}
+		wechatOptimized(imgLink,targetLink);
+		
+		</script>
+		<style type="text/css">body{background-color: #eee;text-align:center;overflow-x:hidden;}div{padding: 0;	margin: 0;text-align: center;vertical-align: top;}img{text-align:center;max-width:100%;}}</style>
+	</body>
+</html>
