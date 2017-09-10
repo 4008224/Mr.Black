@@ -1,43 +1,31 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
+	<homepage>
+		<home-img>home-img</home-img>
+		<home-link>https://4008224.taobao.com</home-link>		
+	</homepage>
 	<product>
-		<id product-id="">
-			<product-img></product-img>
-			<product-link></product-link>
+		<id product-id="1">
+			<product-img>1.1</product-img>
+			<product-link>1.2</product-link>
 		</id>
-		<id product-id="">
-			<product-img></product-img>
-			<product-link></product-link>
+		<id product-id="2">
+			<product-img>2.1</product-img>
+			<product-link>2.2</product-link>
 		</id>
-		<id product-id="">
-			<product-img></product-img>
-			<product-link></product-link>
-		</id>
-		<id product-id="">
-			<product-img></product-img>
-			<product-link></product-link>
-		</id>
-		<id product-id="">
-			<product-img></product-img>
-			<product-link></product-link>
-		</id>		
+		<id product-id="3">
+			<product-img>3.1</product-img>
+			<product-link>3.2</product-link>
+		</id>	
 	</product>
 	<download>
 		<id app-name="com.lovense.bodychat">
-			<app-img></app-img>
-			<app-link></app-link>
+			<app-img>com.lovense.bodychat.img</app-img>
+			<app-link>http://qingqubaike-1253232907.costj.myqcloud.com/Nora%26Max%E5%AE%89%E5%8D%93APP_Body_Chat_3.1.0.apk</app-link>
 		</id>
 		<id app-name="com.lovense.remote">
-			<app-img></app-img>
-			<app-link></app-link>
-		</id>
-		<id app-name="com.zalo.health">
-			<app-img></app-img>
-			<app-link></app-link>
-		</id>
-		<id app-name="com.vrp.player">
-			<app-img></app-img>
-			<app-link></app-link>
+			<app-img>com.lovense.remote.img</app-img>
+			<app-link>http://qingqubaike-1253232907.costj.myqcloud.com/Lovense%20Remote_v3.0.5By%E9%BB%91%E5%93%A5%E6%83%85%E8%B6%A3.com.apk</app-link>
 		</id>
 	</download>
 </config>

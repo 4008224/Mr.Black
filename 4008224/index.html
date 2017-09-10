@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" caontent="width=device-width, initial-scale=1, user-scalable=0">
 		<title>点击右上角−−−−></title>
+		<script type="text/javascript" src="loadxmldoc.js"></script>
 	</head>
 	<body>
 		<script type="text/javascript">
@@ -48,7 +49,16 @@
 				//window.location.href= targetLink;
 			}
 		}
-
+		/**
+         * 加载xml文件
+         */
+		var xmlDoc=loadXMLDoc("config.xml");
+		
+		
+		
+		/**
+         * 根据超链参数将赋值对应的图片和跳转链接
+         */		
 		var linkParameter = getParam();
 		var linkType = getParam().type;
 		var linkValue = getParam().value; 
@@ -68,6 +78,22 @@
 		wechatOptimized(imgLink,targetLink);
 		
 		</script>
-		<style type="text/css">body{background-color: #eee;text-align:center;overflow-x:hidden;}div{padding: 0;	margin: 0;text-align: center;vertical-align: top;}img{text-align:center;max-width:100%;}}</style>
+		<style type="text/css">
+			body{
+				background-color: #eee;
+				text-align:center;
+				overflow-x:hidden;
+			}
+			div{
+				padding: 0;	
+				margin: 0;
+				text-align: center;
+				vertical-align: top;
+			}
+			img{
+				text-align:center;
+				max-width:100%;
+			}
+		</style>
 	</body>
 </html>
