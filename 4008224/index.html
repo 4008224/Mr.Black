@@ -4,16 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" caontent="width=device-width, initial-scale=1, user-scalable=0">
 		<title>点击右上角−−−−></title>
-		<script type="text/javascript" src="loadxmldoc.js"></script>
 	</head>
 	<body>
 		<script type="text/javascript">
 		/**
-         * 获取参数的键值对对象。
+         * 获取参数的键值对象。
          * @returns {Object}
          */
         function getParam() {
-            try{ 
+			try{ 
 				var url = window.location.href;
 				var result = url.split("?")[1];
 				var keyValue = result.split("&");
@@ -45,37 +44,88 @@
 				document.body.innerHTML = '<div class ="scaled"><img src="https://www.qingqubaike.com/wp-content/uploads/2017/08/android.jpg" /></div><div><img src="' + imgLink + '"/></div>';
 			}
 			else {
-				window.location.href='a.html?type=0&value=com.lovense.bodychat';
-				//window.location.href= targetLink;
+				window.location.href= targetLink;
 			}
 		}
 		/**
-         * 加载xml文件
+         * 加载xml文件方法
          */
-		var xmlDoc=loadXMLDoc("config.xml");
-		
-		
+		function loadXMLDoc(url) {
+			xmlhttp=null;
+			if (window.XMLHttpRequest) {
+				// code for IE7, Firefox, Mozilla, etc.
+				xmlhttp=new XMLHttpRequest();
+			}
+			else if (window.ActiveXObject) {
+				// code for IE5, IE6
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			if (xmlhttp!=null) {
+				xmlhttp.onreadystatechange=onResponse;
+				xmlhttp.open("GET",url,true);
+				xmlhttp.send(null);
+			}
+			else {
+				alert("Your browser does not support XMLHTTP.");
+			}
+			return xmlhttp;
+		}
+
 		
 		/**
          * 根据超链参数将赋值对应的图片和跳转链接
-         */		
-		var linkParameter = getParam();
-		var linkType = getParam().type;
-		var linkValue = getParam().value; 
-		if (linkType == 1) {
-			var imgLink = ;
-			var targetLink = ;
+         */	
+		var xmlhttp;
+		var xmlhttp = loadXMLDoc("config.xml");
+		function onResponse() {
+			/**
+			*等待XMLHttpRequest HTTP 响应已经完全接收。
+			*/
+			if(xmlhttp.readyState!=4) return;
+			if(xmlhttp.status!=200) {
+				alert("Problem retrieving XML data");
+				return;
+			}
+			//解析xml内容
+			var xmlContent = xmlhttp.responseXML;
+			var homepage = xmlContent.getElementsByTagName("homepage");
+			var productItem = xmlContent.getElementsByTagName("product")[0].getElementsByTagName("item");
+			var downloadItem = xmlContent.getElementsByTagName("download")[0].getElementsByTagName("item");		
+			var linkParameter = getParam();
+			var linkType = getParam().type;
+			var linkValue = getParam().value; 
+			//根据传参为微信所需参数从xml中检索value并赋值
+			if (linkType == 1) {
+				//product of taobao
+				for (i=0;i<productItem.length;i++) {
+					var productItemId = productItem [i].getElementsByTagName("product-id")[0].firstChild.nodeValue;
+					if (productItemId == linkValue) {
+						var imgLink = productItem [i].getElementsByTagName("product-img")[0].firstChild.nodeValue;
+						var targetLink = productItem [i].getElementsByTagName("product-link")[0].firstChild.nodeValue;
+					}
+				}
+
+			}
+			else if (linkType == 2) {
+				//android application
+				for (i=0;i<downloadItem.length;i++) {
+					var downloadItemId = downloadItem [i].getElementsByTagName("app-name")[0].firstChild.nodeValue;
+					if (downloadItemId == linkValue) {
+						var imgLink = downloadItem [i].getElementsByTagName("app-img")[0].firstChild.nodeValue;
+						var targetLink = downloadItem [i].getElementsByTagName("app-link")[0].firstChild.nodeValue;
+					}
+				}		
+			}
+			else {
+				// linkType为0或者其它错误值时均提示跳转主页
+				var imgLink = homepage[0].getElementsByTagName("home-img")[0].firstChild.nodeValue;
+				var targetLink = homepage[0].getElementsByTagName("home-link")[0].firstChild.nodeValue ;
+			}
+			//执行微信跳转检查函数
+			wechatOptimized(imgLink,targetLink);
 		}
-		else if (linkType == 2) {
-			var imgLink = ;
-			var targetLink = ;
-		}
-		else {
-			// linkType为0或者其它错误值时均提示跳转主页
-			var imgLink = ;
-			var targetLink = ;
-		}
-		wechatOptimized(imgLink,targetLink);
+	
+
 		
 		</script>
 		<style type="text/css">
