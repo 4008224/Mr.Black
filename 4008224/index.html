@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" caontent="width=device-width, initial-scale=1, user-scalable=0">
-		<title>点击右上角−−−−></title>
+		<title>点击右上角-------></title>
 	</head>
 	<body>
 		<script type="text/javascript">
 		/**
-         * 获取参数的键值对象。
+         * get the parameter 
          * @returns {Object}
          */
         function getParam() {
@@ -28,14 +28,14 @@
 			}
         };
 		/**
-         * 微信跳转函数。
+         * check if it is wechat browser
          */		
 		function wechatOptimized(imgLink,targetLink){
 			var ua = navigator.userAgent
 			var uat = navigator.userAgent.toLowerCase();
-			var isWeixin = uat.indexOf('micromessenger') != -1; //微信内访问
-			var isAndroid = ua.indexOf('Android') != -1; //android终端
-			var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+			var isWeixin = uat.indexOf('micromessenger') != -1; //wechat
+			var isAndroid = ua.indexOf('Android') != -1; //android
+			var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios
 			var browserWidth = document.body.clientWidth;
 			if(isWeixin && isiOS){
 				document.body.innerHTML = '<div><img src="https://www.qingqubaike.com/wp-content/uploads/2017/08/ios.png" /></div><div><img src="' + imgLink + '"/></div>';
@@ -48,7 +48,7 @@
 			}
 		}
 		/**
-         * 加载xml文件方法
+         *the way to load xml
          */
 		function loadXMLDoc(url) {
 			xmlhttp=null;
@@ -73,28 +73,30 @@
 
 		
 		/**
-         * 根据超链参数将赋值对应的图片和跳转链接
+         * load xml and phrase the data
          */	
 		var xmlhttp;
+		console.log(xmlhttp);
 		var xmlhttp = loadXMLDoc("config.xml");
 		function onResponse() {
 			/**
-			*等待XMLHttpRequest HTTP 响应已经完全接收。
+			*wait for XMLHttpRequest HTTP ready
 			*/
 			if(xmlhttp.readyState!=4) return;
 			if(xmlhttp.status!=200) {
 				alert("Problem retrieving XML data");
 				return;
 			}
-			//解析xml内容
+			//data
 			var xmlContent = xmlhttp.responseXML;
+			console.log(xmlContent);
 			var homepage = xmlContent.getElementsByTagName("homepage");
 			var productItem = xmlContent.getElementsByTagName("product")[0].getElementsByTagName("item");
 			var downloadItem = xmlContent.getElementsByTagName("download")[0].getElementsByTagName("item");		
 			var linkParameter = getParam();
 			var linkType = getParam().type;
 			var linkValue = getParam().value; 
-			//根据传参为微信所需参数从xml中检索value并赋值
+			//choose the right data 
 			if (linkType == 1) {
 				//product of taobao
 				for (i=0;i<productItem.length;i++) {
@@ -117,11 +119,11 @@
 				}		
 			}
 			else {
-				// linkType为0或者其它错误值时均提示跳转主页
+				// error to home pate
 				var imgLink = homepage[0].getElementsByTagName("home-img")[0].firstChild.nodeValue;
 				var targetLink = homepage[0].getElementsByTagName("home-link")[0].firstChild.nodeValue ;
 			}
-			//执行微信跳转检查函数
+			//
 			wechatOptimized(imgLink,targetLink);
 		}
 	

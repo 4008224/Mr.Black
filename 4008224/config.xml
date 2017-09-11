@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <config>
 	<homepage>
 		<home-img>https://www.qingqubaike.com/wp-content/uploads/2017/09/black.jpg</home-img>
@@ -455,7 +455,7 @@
 		<item>
 			<app-name>com.zalo.health</app-name>
 			<app-img>https://www.qingqubaike.com/wp-content/uploads/2017/09/com.zalo_.health.jpg</app-img>
-			<app-link>http://ucdl.25pp.com/fs08/2016/09/06/11/2_a200464fbd9b8d8d7604e5a10ab34202.apk?sf=21898220&vh=2784afa774cdc37a6b545038fe25dbd1&sh=10&cc=2440670998&appid=7248038&packageid=700199244&md5=56b36f476aae1e59e4a621f7507248ba&apprd=7248038&pkg=com.leai&vcode=4&fname=ZALO++HEALTH&pos=detail-ndownload-com.leai</app-link>
+			<app-link>http://qingqubaike-1253232907.costj.myqcloud.com/zalo_health_By%E9%BB%91%E5%93%A5%E6%83%85%E8%B6%A3.apk</app-link>
 		</item>
 		<item>
 			<app-name>com.vrp.player</app-name>
