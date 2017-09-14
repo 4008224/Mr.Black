@@ -3,25 +3,25 @@
 		Tenga Iroha
 		Minna Life Limon
 		Zalo Baby Star
-		Womanizer 2Go
-		Zalo Courage
-		Magic Wand
+	
+		lush
+	
 	高潮保障
 		Magic Wand
-		Womanizer 2Go
+	
 		Womanizer W500
 		Lovense Nora
 		诺兰悦魅
-		Zalo Ichigo
+	
 	寂寞高手
-		Magic Wand
+		
 		Fun Factory
 		Nolone 悦浪
-		Lovense Hush
+		
 		Zalo Desire
 		Lelo Tiani
 	礼盒包装
-		Womanizer W500
+		LELO ORA 奥拉2
 		Zalo Baby Heart
 		Womanizer 2Go
 		Zalo Courage
