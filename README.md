@@ -103,12 +103,12 @@
 	户外遥控
 		Lovense Lush
 		Lelo Tiani 24k
-		Lovense Hush
-		LELO Hula球
+		
+		
 		LELO Lyla2
 		LELO IDA2		
 	异地遥控
-		Lovense Lush
+		
 		Lovense Nora
 		Lovense Hush
 		Lovense Max
@@ -116,10 +116,10 @@
 		Kiiroo Onyx	
 	共用玩具
 		Zalo Fanfan
-		Zalo Fanfan Set
+		
 		Lelo Tiani 2代
 		Lelo Tiani 24K
-		Lelo Ida2
+		
 		We-vibe 维依Sync
 	凯戈尔球
 		Lelo luna smart
