@@ -1,5 +1,5 @@
 /*Body CSS File by Mr.black*/
-/*https://open.taobao.com/docs/doc.htm?&treeId=10&articleId=102112&docType=1*/
+/*//open.taobao.com/docs/doc.htm?&treeId=10&articleId=102112&docType=1*/
 
 /*short-code-list*/
 /*
@@ -2558,7 +2558,7 @@ a:link {
 
 .custom-effect-03-popup-wishlist {
 	display:inline-block;
-	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2Gh4QXpcJL1JjSZFOXXcWlXXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i2/321199669/TB2Gh4QXpcJL1JjSZFOXXcWlXXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 	width:20%;
@@ -2567,7 +2567,7 @@ a:link {
 	left:18%;
 }
 .custom-effect-03-popup-wishlist:hover{
-	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2tz0GXC3PL1JjSZFtXXclRVXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i2/321199669/TB2tz0GXC3PL1JjSZFtXXclRVXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -2579,13 +2579,13 @@ a:link {
 	height:100%;
 	position:relative;
 	left:22%;
-	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
 
 .custom-effect-03-popup-cart:hover{
-	background-image:url(https://img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i2/321199669/TB2O_8OXbsTMeJjy1zeXXcOCVXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -2596,13 +2596,13 @@ a:link {
 	height:100%;
 	position:relative;
 	left:24%;
-	background-image:url(https://img.alicdn.com/imgextra/i4/321199669/TB2LL0NXuALL1JjSZFjXXasqXXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i4/321199669/TB2LL0NXuALL1JjSZFjXXasqXXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
 
 .custom-effect-03-popup-detail:hover{
-	background-image:url(https://img.alicdn.com/imgextra/i3/321199669/TB2PwFSXukJL1JjSZFmXXcw0XXa_!!321199669.png);
+	background-image:url(//img.alicdn.com/imgextra/i3/321199669/TB2PwFSXukJL1JjSZFmXXcw0XXa_!!321199669.png);
 	background-position:center center;
 	background-repeat:no-repeat;
 }
