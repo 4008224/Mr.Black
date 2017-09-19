@@ -1463,9 +1463,3 @@ a:link {
 .ce-4 .zd:hover .zdl-2-4{left:594px;top:325px;}
 .ce-4 .zd .zdl{position:absolute;-webkit-transition:0.25s ease-out;-moz-transition:0.25s ease-out;-o-transition:0.25s ease-out;transition:0.25s ease-out;z-index:5;}
 .ce-4 .zd .zdl:hover{position:absolute;-webkit-transform:scale(1.05);transform:scale(1.05);-moz-transform:scale(1.05);-ms-transform:scale(1.05);-o-transform:scale(1.05);-webkit-box-shadow:0px 0px 60px 0px rgba(0,0,0,0.7);box-shadow:0px 0px 60px 0px rgba(0,0,0,0.7);z-index:10;}
-
-
-
-.cm-c-2-b-inline {
-	display:inline-block;
-}
