@@ -44,10 +44,10 @@
 			var isiOS = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios
 			var browserWidth = document.body.clientWidth;
 			if(isWeixin && isiOS){
-				document.body.innerHTML = '<div><img src="//www.qingqubaike.com/wp-content/uploads/2017/09/ios.png" /></div><div><img src="' + imgLink + '"/></div><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">本页面由 微信公众号-黑哥商城 提供<div/>';
+				document.body.innerHTML = '<div><img src="//www.qingqubaike.com/wp-content/uploads/2017/09/ios.png" /></div><div><img src="' + imgLink + '" /></div><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">本页面由 微信公众号-黑哥商城 提供</div>';
 			}
 			else if(isWeixin && isAndroid){
-				document.body.innerHTML = '<div class ="scaled"><img src="//www.qingqubaike.com/wp-content/uploads/2017/09/android.jpg" /></div><div><img src="' + imgLink + '"/></div><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">——本页面仅供安卓手机用户使用——<div/><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">本页面由 微信公众号-黑哥商城 提供<div/>';
+				document.body.innerHTML = '<div class ="scaled"><img src="//www.qingqubaike.com/wp-content/uploads/2017/09/android.jpg" /></div><div><img src="' + imgLink + '" /></div><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">——本页面仅供安卓手机用户使用——</div><div style="width:100%;height:40px;line-height:40px;font-size:16px;text-align:center;">本页面由 微信公众号-黑哥商城 提供</div>';
 			}
 			else {
 				window.location.href= targetLink;
