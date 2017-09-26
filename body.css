@@ -266,8 +266,8 @@ numbers:content order numbers
 	left:58.75px;
 }
 .cp-pp-btn:hover {
-	background-color:#000000;
-	color:#ffffff;
+	background-color:#ffc547;
+	color:#222222;
 	text-decoration:none;
 }
 
@@ -615,7 +615,7 @@ numbers:content order numbers
 /*定义des模块分别在每一列得时候用*/
 .cm-c-des {
 	margin-left:22px;
-	background-color:#82D4ED;
+	background-color:rgb(0,167,230);
 	font-family:微软雅黑;
 }
 .cm-c-first{
@@ -662,7 +662,7 @@ numbers:content order numbers
 	position:relative;
 	top:0px;
 	background-color:#FFFFFF;
-	margin:0 0 4px 4px;;
+	margin:0 0 4px 4px;
 }
 .cm-c-i-top:hover {
 	box-shadow: 0 0 4px #888888;
@@ -832,17 +832,18 @@ a:link {
 	height:100%;
 }
 .brand-product-unit-img img:hover {
-	width:120%;
-	height:120%;
+	width:100%;
+	height:100%;
 }
 
 .brand-product-unit-name {
-	font-size:16px;
+	font-size:14px;
 	font-weight:400;
 	width:162px;
 	text-align:center;
 	color:#757575;
 	padding-top:16px;
+	font-family:微软雅黑;
 }
 
 .brand-product-unit-price{
@@ -852,6 +853,7 @@ a:link {
 	padding-top:12px;
 	color:#000000;
 	font-size:18px;
+	font-family:微软雅黑;
 }
 
 .brand-products-space {
@@ -1357,6 +1359,78 @@ a:link {
 	-khtml-opacity: 1; /* Safari 1.x */
 	-webkit-opacity: 1; /* other webkit*/
 }
+.ce-2 .blue {
+	background-color:rgb(0,167,230);
+}
+.ce-2 .orange {
+	background-color:#ff9e6f;
+}
+
+/*featured colors*/*/
+.ce-2 .or-0,.or-0 {
+	background-color:rgb(0,167,230);
+}
+.ce-2 .or-00,.or-00 {
+	background-color:#ff9e6f;
+}
+/*for her colors*/
+.ce-2 .or-1,.or-1 {
+	background-color:#F8BBD0;
+}
+.ce-2 .or-2,.or-2 {
+	background-color:#F06292;
+}
+.ce-2 .or-3,.or-3 {
+	background-color:#E91E63;
+}
+.ce-2 .or-4,.or-4 {
+	background-color:#FF4081;
+}
+/*lube colors*/
+.ce-2 .or-5,.or-5 {
+	background-color:#BCAAA4;
+}
+.ce-2 .or-6,.or-6 {
+	background-color:#0097A7	;
+}
+.ce-2 .or-7,.or-7 {
+	background-color:#00838F;
+}
+.ce-2 .or-8,.or-8 {
+	background-color:#00B8D4;
+}
+/*for him*/
+.ce-2 .or-9,.or-9 {
+	background-color:#BCAAA4;
+}
+.ce-2 .or-10,.or-10 {
+	background-color:#0097A7	;
+}
+/*for couple*/
+.ce-2 .or-11,.or-11 {
+	background-color:#BCAAA4;
+}
+.ce-2 .or-12,.or-12 {
+	background-color:#0097A7	;
+}
+.ce-2 .or-13,.or-13 {
+	background-color:#BCAAA4;
+}
+.ce-2 .or-14,.or-14 {
+	background-color:#0097A7	;
+}
+/*health and care*/
+.ce-2 .or-15,.or-15 {
+	background-color:#BCAAA4;
+}
+.ce-2 .or-16,.or-16 {
+	background-color:#0097A7	;
+}
+.ce-2 .or-17,.or-17 {
+	background-color:#BCAAA4;
+}
+
+
 
 /*custom-effect-03 商品底部popup出收藏、购物车、购买的按钮，此效果使用淘宝Wideget popup实现*/
 
@@ -1445,11 +1519,11 @@ a:link {
 /*ce-4 聚焦动画*/
 .ce-4{margin-bottom:0px;position:relative;width:100%;height:618px;margin:auto auto;}
 .ce-4 .zd{position:relative;z-index:10;height:610px;top:4px;left:0px;background-color:#ffffff;}
-.ce-4 .zd .zdl-1-1{left:160px;top:220px;}
+.ce-4 .zd .zdl-1-1{left:190px;top:270px;}
 .ce-4 .zd .zdl-1-2{left:590px;top:340px;}
 .ce-4 .zd .zdl-1-3{left:40px;top:40px;}
 .ce-4 .zd .zdl-1-4{left:400px;top:320px;}
-.ce-4 .zd .zdl-2-1{left:40px;top:280px;}
+.ce-4 .zd .zdl-2-1{left:40px;top:320px;}
 .ce-4 .zd .zdl-2-2{left:750px;top:110px;}
 .ce-4 .zd .zdl-2-3{left:590px;top:50px;}
 .ce-4 .zd .zdl-2-4{left:240px;top:60px;}

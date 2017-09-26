@@ -47,6 +47,7 @@
 .popup-icon {background:none;width:0;padding:0;margin:0;}
 .menu-popup-cats {color:#777777;font-family:微软雅黑;font-size:14px;font-weight:normal;border:none;}
 .menu-selected {color:#232323;font-size:14px;font-weight:normal;font-family:微软雅黑; font-style:normal;}
+.menu-selected .link .title {background-color:#222222}
 
 /*导航区弹出菜单背景文字颜色*/
 .sub-cat {background:#ffffff;border:none;}
