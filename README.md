@@ -146,3 +146,9 @@
 	Magic Wand
 	JO
 	Kink
+	
+	
+	
+	
+	
+	J_CartPluginTrigger

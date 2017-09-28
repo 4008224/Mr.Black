@@ -642,18 +642,8 @@ numbers:content order numbers
 	color:#ffffff;
 	line-height:18px;
 }
-.cm-c-des-btn {
-    width:100px;
-	height:30px;
-	background: white;
-    letter-spacing: 2px;
-	text-align:center;
-	line-height:30px;
-	margin:auto auto;
-	margin-top:82px;
-	font-size:16px;
-	color:#2095b8;
-}
+
+
 
 .cm-c-i-top {
 	display:block;
@@ -1368,66 +1358,271 @@ a:link {
 
 /*featured colors*/*/
 .ce-2 .or-0,.or-0 {
-	background-color:rgb(0,167,230);
+	background-color:#67c650;
 }
 .ce-2 .or-00,.or-00 {
-	background-color:#ff9e6f;
+	background-color:#ec4346;
 }
 /*for her colors*/
 .ce-2 .or-1,.or-1 {
-	background-color:#F8BBD0;
+	background-color:#F48FB1;
+}
+.cm-c-des-btn {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#F48FB1;
 }
 .ce-2 .or-2,.or-2 {
 	background-color:#F06292;
 }
+.cm-c-des-btn-2 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#F06292;
+}
+
 .ce-2 .or-3,.or-3 {
-	background-color:#E91E63;
+	background-color:#FF4081;
+}
+.cm-c-des-btn-3 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#FF4081;
 }
 .ce-2 .or-4,.or-4 {
-	background-color:#FF4081;
+	background-color:#EC407A;
+}
+.cm-c-des-btn-4 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#EC407A;
 }
 /*lube colors*/
 .ce-2 .or-5,.or-5 {
-	background-color:#BCAAA4;
+	background-color:#FFC107;
+}
+.cm-c-des-btn-5 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#FFC107;
 }
 .ce-2 .or-6,.or-6 {
-	background-color:#0097A7	;
+	background-color:#FFB300;
+}
+.cm-c-des-btn-6 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#FFB300;
 }
 .ce-2 .or-7,.or-7 {
-	background-color:#00838F;
+	background-color:#FFA000;
+}
+.cm-c-des-btn-7 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#FFA000;
 }
 .ce-2 .or-8,.or-8 {
-	background-color:#00B8D4;
+	background-color:#FF8F00;
+}
+.cm-c-des-btn-8 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#FF8F00;
 }
 /*for him*/
 .ce-2 .or-9,.or-9 {
-	background-color:#BCAAA4;
+	background-color:#0277BD;
+}
+.cm-c-des-btn-9 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#0277BD;
 }
 .ce-2 .or-10,.or-10 {
-	background-color:#0097A7	;
+	background-color:#01579B;
+}
+.cm-c-des-btn-10 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#01579B;
 }
 /*for couple*/
 .ce-2 .or-11,.or-11 {
-	background-color:#BCAAA4;
+	background-color:#8BC34A;
+}
+.cm-c-des-btn-11 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#8BC34A;
 }
 .ce-2 .or-12,.or-12 {
-	background-color:#0097A7	;
+	background-color:#7CB342	;
+}
+.cm-c-des-btn-12 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#7CB342;
 }
 .ce-2 .or-13,.or-13 {
-	background-color:#BCAAA4;
+	background-color:#689F38;
+}
+.cm-c-des-btn-13 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#689F38;
 }
 .ce-2 .or-14,.or-14 {
-	background-color:#0097A7	;
+	background-color:#558B2F	;
+}
+.cm-c-des-btn-14 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#558B2F;
 }
 /*health and care*/
 .ce-2 .or-15,.or-15 {
-	background-color:#BCAAA4;
+	background-color:#009688;
+}
+.cm-c-des-btn-15 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#009688;
 }
 .ce-2 .or-16,.or-16 {
-	background-color:#0097A7	;
+	background-color:#00897B	;
+}
+.cm-c-des-btn-16 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#00897B;
 }
 .ce-2 .or-17,.or-17 {
-	background-color:#BCAAA4;
+	background-color:#00796B;
+}
+.cm-c-des-btn-17 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#00796B;
 }
 
 
