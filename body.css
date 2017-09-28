@@ -1356,12 +1356,48 @@ a:link {
 	background-color:#ff9e6f;
 }
 
-/*featured colors*/*/
+/*featured colors*/
 .ce-2 .or-0,.or-0 {
 	background-color:#67c650;
 }
+.cm-c-des-btn-0 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#67c650;
+}
 .ce-2 .or-00,.or-00 {
 	background-color:#ec4346;
+}
+.cm-c-des-btn-00 {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#ec4346;
+}
+.cm-c-des-btn {
+    width:100px;
+	height:30px;
+	background: white;
+    letter-spacing: 2px;
+	text-align:center;
+	line-height:30px;
+	margin:auto auto;
+	margin-top:82px;
+	font-size:16px;
+	color:#F48FB1;
 }
 /*for her colors*/
 .ce-2 .or-1,.or-1 {
